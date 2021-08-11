@@ -1,0 +1,115 @@
+.contact{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../img/pexels-abby-chung-1191377.jpg);
+    background-size: cover;
+
+}
+
+.opacity{
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    background-color: rgb(16, 38, 71);
+    opacity: 90%;
+    z-index: 0;
+}
+
+.content{
+    text-align: center;
+    z-index: 1;
+}
+
+.content h2{
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.content p{
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    margin-top: 10.5vh;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+.contact_info{
+    width: 50%;
+    max-width: 400px;
+    min-width: 300px;
+}
+
+
+
+.box{
+    position: relative;
+    padding: 30px 0;
+    display: flex;
+}
+
+.icon{
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+
+}
+
+.text h3{
+    color: #00bcd4;
+}
+
+.name{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: white;
+    word-wrap: break-word;
+}
+
+
+
+
+@media (max-width: 991px)
+{
+    .contact {
+        padding: 20px;
+    }
+    .content h2{
+        font-size: 2rem;
+    }
+    .name{
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 400) {
+    .contact_info{
+        width: 200px;
+}
+}

@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3vw;
+}
+.nav-links li{
+    padding: 0px 15px;
+
+}
+
+.logo{
+    height: 10vh;
+    width: auto;
+    margin-left: 40px;
+}
+
+.flag{
+    width: auto;
+    height: 3vh;
+    cursor: pointer;
+}
+
+nav li,a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-btn {
+    display: none;
+    cursor: pointer;
+}
+
+.nav-btn div {
+    width: 25px;
+    height: 3px;
+    background-color: #0839f0;
+    margin: 5px;
+    transition: all .3s ease;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background: blue;
+}
+
+header {
+    width: 100%;
+    height: 80vh;
+    background: url("../img/pexels-becerra-govea-photo-5774154.jpg") no-repeat fixed center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.overlay {
+    z-index: 1;
+    background: #000;
+    opacity: 0.40;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.blue {
+    background: blue;
+}
+
+header h1,header h2,header button{
+    color: white;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+}
+
+header h1{
+    width: 100%;
+    top: 30%;
+    left: 50%;
+    font-size: 3rem;
+}
+
+header h2{
+    top: calc(30% + 70px);
+    width: 100%;
+    font-size: 2rem;
+    left: 50%;
+}
+
+header button{
+    top: calc(30% + 65px + 75px);
+    left: 50%;
+    padding: 10px 20px;
+    background-color: #7D99f4;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+header button:hover{
+    cursor: pointer;
+}
+
+
+.about {
+    height: 80vh;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.first{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #bac9fd;
+}
+
+
+.img{
+    position: absolute;
+    height: 70%;
+    width: 33.23%;
+    border-radius: 20px;
+    right: 10%;
+    top: 25%; 
+    z-index: 5;
+}
+
+.img-second{
+    right: 14%;
+    top: 21.5%;
+    z-index: 4;
+}
+
+.img-second:hover{
+    z-index: 6;
+}
+
+.img-third{
+    right: 18%;
+    top: 18%;
+    z-index: 3;
+}
+
+.img-third:hover{
+    z-index: 6;
+}
+
+.img-fourth{
+    right: 22%;
+    top: 14.3%;
+    z-index: 2;
+}
+
+.img-fourth:hover{
+    z-index: 6;
+}
+
+.img-fifth{
+    right: 26%;
+    top: 10.7%;
+    z-index: 1;
+}
+
+.img-fifth:hover{
+    z-index: 6;
+}
+
+
+.second{
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background: #bac9fd;
+
+}
+
+.second h1{
+    position: absolute;
+    top: 10%;
+    color: white;
+    font-size: 2rem;
+    left: 15px;
+    left: 10%;
+}
+
+.second div{
+    position: absolute;
+    top: calc(10% + 3rem);
+    width: 200px;
+    border-radius: 20px;
+    height: 10px;
+    background-color: #0839f0;
+    left: 10%;
+}
+
+.second p{
+    position: absolute;
+    font-size: 1.5rem;
+    top: calc(10% + 4.5rem);
+    width: 70%;
+    color: rgb(80, 79, 79);
+    left: 10%;
+}
+
+
+
+
+.second button{
+    color: white;
+    padding: 10px 20px;
+    background-color: #7D99f4;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.swap{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 25%;
+}
+.swap button{
+    cursor: pointer;
+    border: none;
+}
+
+.swap button:hover{
+    background: #0839f0;
+    border: white 2px solid;
+    color: white;
+}
+
+
+.third{
+    background: #bac9fd;
+}
+
+.fourth{
+    background: #bac9fd;
+}
+
+
+footer {
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: black;
+    height: 1px;
+    position: absolute;
+    height: 50px;
+}
+footer a{
+    color: black;
+}
+
+.btn{
+  border: 1px solid white;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: absolute;
+  overflow: hidden;
+}
+
+.btn4{
+  color: #fff;
+}
+
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #0839f0;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.btn4::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.btn4::before{
+  height: 180%;
+}
+
+.btn4:hover::before{
+  height: 0%;
+}
+
+
+@media (max-width: 1650px){
+    .second p {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 1420px){
+    .second p {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 1000px){
+
+    .about{
+        height: 100vh;
+    }
+    .img{
+        height: 50%;
+    }
+
+    .second div{
+        width: 6rem;
+    }
+
+    .second p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    body {
+        overflow-x: hidden;
+    }
+
+       .first{
+        display: none;
+    }
+        .second{
+        left: auto;
+        right: auto;
+        width: 100%;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top: 10vh;
+        background-color: #7D99f4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        margin: 0;
+    }
+
+    .nav-links li {
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0 20px 0;
+    }
+
+    .nav-btn {
+        display: block;
+    }
+    .flag{
+        height: 5vh;
+    }
+
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+@media  (max-width: 650px) {
+    header h1{
+        font-size: 2rem;
+    }
+    header h2{
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 500px){
+ 
+    .about{
+        height: 110vh;
+    }
+    footer{
+        display: none;
+    }
+
+
+}

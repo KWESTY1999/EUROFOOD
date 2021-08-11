@@ -1,0 +1,13 @@
+
+
+const data = [
+    {id:1,text:"Firma Eurofood istnieje na rynku od 10 lat, dzięki doświadczonym oraz kompetentnym pracownikom osiągnęliśmy wysoki poziom w handlu hurtowym, jak i przy wyborze artykułów spożywczych najlepszej jakości. Oferujemy, szeroką gamę produktów zaczynając, od surowych mięs kończąc na wyśmienitych regionalnych wyrobach z wielu zakątków europy.            Profesjonalna obsługa, konkurencyjna cena oraz niezmienna jakość, cechy, te pozwoliły firmie prężnie rozwijać się na rynku europejskim, zdobyliśmy, również zaufania wielu klientów, współpracujących z nami od początków naszej działalności."},
+    
+    {id:2,text:"Компания Eurofood существует на рынке уже 10 лет, благодаря опытным и компетентным сотрудникам мы достигли высокого уровня в оптовой торговле и в выборе продуктов питания самого высокого качества. Мы предлагаем широкий ассортимент продуктов, от сырого мяса до вкусных региональных продуктов из многих уголков Европы. Профессиональное обслуживание, конкурентоспособная цена и неизменное качество позволили компании динамично развиваться на европейском рынке, мы также завоевали доверие многих клиентов, которые сотрудничают с нами с самого начала нашей деятельности."},
+
+    {id:3,text:"Eurofood has been on the market for 10 years, thanks to experienced and competent employees, we have achieved a high level in wholesale and in the selection of the best quality food products. We offer a wide range of products, ranging from raw meats to delicious regional products from many corners of Europe. Professional service, competitive price and consistent quality, features, have allowed the company to dynamically develop on the European market, we have also gained the trust of many customers who have been cooperating with us from the beginning of our activity."},
+
+    {id:4,text:"Eurofood ist seit 10 Jahren auf dem Markt, dank erfahrener und kompetenter Mitarbeiter haben wir ein hohes Niveau im Großhandel und in der Auswahl der hochwertigsten Lebensmittel erreicht. Wir bieten eine breite Produktpalette, die von rohem Fleisch bis hin zu köstlichen regionalen Produkten aus vielen Ecken Europas reicht. Professioneller Service, konkurrenzfähiger Preis und konstante Qualität, Eigenschaften haben es dem Unternehmen ermöglicht, sich dynamisch auf dem europäischen Markt zu entwickeln, wir haben auch das Vertrauen vieler Kunden gewonnen, die seit Beginn unserer Tätigkeit mit uns zusammenarbeiten."}
+];
+
+export default data
