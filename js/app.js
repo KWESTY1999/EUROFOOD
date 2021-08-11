@@ -67,7 +67,7 @@ PL.addEventListener('click',()=>{
   secondTitle.innerHTML = 'Wędliny, Mięso, art. Spożywcze'
   thirdTitle.innerHTML = 'Skontaktuj Się Z Nami'
   firstTitle.innerHTML = "O Nas";
-  Kontakt.innerHTML = 'Kontact';
+  Kontakt.innerHTML = 'Kontakt';
 })
 RUS.addEventListener('click',()=>{
   text.innerHTML = data[1].text;
